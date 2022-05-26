@@ -15,7 +15,7 @@ app
       server.use(
         "/api",
         createProxyMiddleware({
-          target: "http://localhost:8000",
+          target: "https://edemy-marketplace.herokuapp.com/",
           changeOrigin: true,
         })
       );
