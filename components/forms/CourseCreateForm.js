@@ -1,7 +1,6 @@
 import React from 'react'
 import { Select,Button,Badge } from 'antd';
 import Avatar from 'antd/lib/avatar/avatar';
-import courseModel from '../../../server/models/courseModel';
 
 const { Option } = Select;
 
